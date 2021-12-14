@@ -7,7 +7,7 @@ const HomeScreen = ({ navigation }) => {
   const { leerFrase } = useContext(FrasesContext);
   return (
     <View style={styles.Contenedor}>
-      <Text style={styles.Titulo}>Selecciona tu frase de interés.</Text>
+      <Text style={styles.Titulo}>Kevin Itzay Hernández te está solicitando que selecciones una frase de abajo.</Text>
       <Button
         title="Frase del Día"
         color="purple"
